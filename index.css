@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'El Messiri', sans-serif;
+}
+header {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 150px;
+    align-items: center;
+}
+nav{
+    flex: 1;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link {
+    text-decoration: none;
+    color: rgb(71, 65, 65);
+}
+
+main {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    position: absolute;
+    width: 30%;
+    top: 700px;
+    right: 650px;
+    font-size: 3rem;
+    padding: 2em;
+    justify-content: space-around;
+}
+.submission-form {
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid;
+    padding: 2rem;
+}
+label {
+    display: block;
+}
+input, textarea {
+    display: block;
+}
+

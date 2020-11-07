@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steven Williams Portfolio</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
 </head>
-<body> 
+<body>
     <header>
         <nav> 
             <ul class= "nav-links">
@@ -19,16 +19,32 @@
             </ul>
         </nav> 
     </header>
-    <main>
-    <h1>Hello. Welcome to my site.</h1>
-    <br>
-    <h2>I'm Steven, a student at Northcoders looking for for my first tech role.</h2>
-    <br>
-    <h3>Take a look around.</h3>
+    <form class="submission-form">
+        <label for="first-name">
+            First Name
+        </label>
+        <input type="text" id="first-name">
+        <label for="last-name">
+            Last Name
+        </label>
+        <input type="text" id="last-name">
+        <label for="email">
+            Email
+        </label>
+        <input type="email" id="email">
+        <label for="phone">
+            Phone Number
+        </label>
+        <input type="text" id="Phone">
+        <label for="message">
+            Message
+        </label>
+        <textarea id="message"></textarea>
+        <input type="submit" value="Send">
+    </form>
     <div class="social">
         <a href = https://github.com/stevenwilliams59?tab=repositories class = "github" target="_blank"> <i class="devicon-github-plain-wordmark colored"></i></a>
         <a href = https://www.linkedin.com/in/steven-williams-541855187/class = "link" target="_blank"> <i class="devicon-linkedin-plain colored"></i></a>
     </div>
-    </main>
 </body>
 </html>
