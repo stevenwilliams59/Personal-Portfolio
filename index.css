@@ -5,6 +5,7 @@
 }
 body {
     font-family: 'El Messiri', sans-serif;
+    background-image: url(/Images/background.jpg);
 }
 header {
     display: flex;
@@ -32,13 +33,11 @@ main {
 
 .social {
     display: flex;
-    position: absolute;
-    width: 30%;
-    top: 700px;
-    right: 650px;
+    width: 20%;
     font-size: 3rem;
-    padding: 2em;
+    padding: 3rem;
     justify-content: space-around;
+    margin: auto;
 }
 .submission-form {
     max-width: 500px;
@@ -51,5 +50,11 @@ label {
 }
 input, textarea {
     display: block;
+}
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
 }
 
