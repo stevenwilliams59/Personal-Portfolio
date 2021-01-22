@@ -26,7 +26,17 @@ nav {
   text-decoration: none;
   color: rgb(71, 65, 65);
 }
-
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.hamburger:focus {
+  outline: none;
+}
 main {
   text-align: center;
   margin-top: 4rem;
@@ -81,4 +91,17 @@ textarea {
 }
 .backend-image {
   margin-top: 4rem;
+}
+@media screen and (max-width: 767px) {
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+  .nav-links.show {
+    display: flex;
+  }
+  .hamburger {
+    display: block;
+  }
 }

@@ -8,11 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+    <script src="https://kit.fontawesome.com/49e5305eb7.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav> 
-            <ul class= "nav-links">
+          <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+          </button>
+            <ul class= "nav-links" id="nav-links">
             <li><a href = index.html class = "nav-link">Home</a></li>
             <li><a href = Projects.html class = "nav-link">My Projects</a></li>
             <li><a href = About.html class = "nav-link">About Me</a></li>
@@ -20,7 +24,7 @@
             </ul>
         </nav> 
     </header>
-    <form class="submission-form">
+    <form class="submission-form" action="mailto:stevenwilliams5959@outlook.com" method="post" enctype="text/plain">
         <label for="first-name">
             First Name
         </label>
@@ -47,5 +51,6 @@
         <a href = https://github.com/stevenwilliams59?tab=repositories class = "github" target="_blank"> <i class="devicon-github-original-wordmark colored"></i></a>
         <a href = https://www.linkedin.com/in/steven-williams-541855187/class = "link" target="_blank"> <i class="devicon-linkedin-plain colored"></i></a>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
