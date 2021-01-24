@@ -5,7 +5,7 @@
 }
 body {
   font-family: "El Messiri", sans-serif;
-  background-image: url(/Images/background.jpg);
+  background-image: url("/Images/background.jpg");
 }
 header {
   display: flex;
